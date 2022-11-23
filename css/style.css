@@ -7,8 +7,9 @@
 }
 /* ========== /global ========== */
 
+/* ========== calculator ========== */
 body {
-	background: white;
+	background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
 }
 
 .calculator-grid {
@@ -23,8 +24,10 @@ body {
 .calculator-grid > button {
 	cursor: pointer;
 	font-size: 2rem;
-	border: 1px solid black;
-	background-color: gray;
+	background: rgba(52, 52, 52, 0.2);
+	border-radius: 5px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(52, 52, 52, 0.3);
 }
 
 .calculator-grid > button:hover {
@@ -45,6 +48,10 @@ body {
 	padding: 10px;
 	word-wrap: break-word;
 	word-break: break-all;
+	background: rgba(0, 0, 0, 0.70);
+	border-radius: 5px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .output .previous-operand {
@@ -56,3 +63,4 @@ body {
 	color: white;
 	font-size: 2.5rem;
 }
+/* ========== /calculator ========== */
